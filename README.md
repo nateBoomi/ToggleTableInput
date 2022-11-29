@@ -14,3 +14,17 @@ This component renders a column of a table as toggle buttons.  These toggles act
 3. Add this URL to your player as a custom resource.
 4. On the page with the table you wish to have a toggle column, open the Metadata using the >_ button.
 5. Search for the column of the table in the Metadata, and set the componentType of that column to "ToggleTableInput"
+
+### Setting up the Table
+This process will create a table similar to the demo where the contents can be modified.
+
+1. Under Settings, select Editable and Multi Select
+2. Under Data Source, choose the type of data and select "Get the data from a list value"
+3. Make sure that "The value that holds the data" and "Save the selection made by the user to" are the same list value where you want your data to be saved.
+4. Unselect Multi Select in Settings
+5. Add the relevant columns to Data Presentation
+6. Add the following Attributes:
+* Key "radio", Value "false"
+* Key "isRowSelectionDisabled", Value "true"
+7. Save the component
+8. In the page metadata, apply the editable status and/or custom components to columns which should be editable
