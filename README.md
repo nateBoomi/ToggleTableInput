@@ -1,4 +1,4 @@
-# TogleTableInput
+# ToggleTableInput
 A custom toggle button for table components in Boomi Flow
 
 ## Try the Demo!
